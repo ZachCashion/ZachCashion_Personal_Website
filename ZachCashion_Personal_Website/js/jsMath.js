@@ -1,19 +1,12 @@
-let jsMath = document.getElementById("jsMath")
-let jsMathInput = document.getElementById("jsMathInput")
-let output = document.getElementById("output")
+// Get User Data
+// With jQuery
+
+$("#jsMathButton").click(function(){
+
+});
 
 
-let array = jsMathInput.split("");
-let product = 1;
-let sum = 0;
-let i;
-
-jsMath.addEventListener("submit", (e) => {
-  e.preventDefault()
-  compute(array)
-})
-
-
+// Make caculations
 function compute(array){
 
    for (i = 0; i < array.length; i+= 1) {
@@ -35,3 +28,6 @@ function compute(array){
    }
 
 }
+
+
+// Output results
