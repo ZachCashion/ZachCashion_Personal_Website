@@ -23,6 +23,10 @@
     <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
 
+    <!-- Syntax Highlighter -->
+    <link href="css/shCore.css" rel="stylesheet" type="text/css" />
+    <link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body id="page-top">
@@ -87,7 +91,7 @@
         <div class="container">
 
             <!-- Portfolio Section Heading -->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">JS Exercises</h2>
 
             <!-- Icon Divider -->
             <div class="divider-custom">
@@ -323,7 +327,7 @@
 
             <!-- Resume Section Button -->
             <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
+                <a class="btn btn-xl btn-outline-light" href="">
                     <i class="fas fa-download mr-2"></i>
                     ZachCashionResume.pdf
                 </a>
@@ -713,27 +717,27 @@
                                 <div>
 
                                     <div class="container" style="padding: 50px 50px 50px 50px">
-                                      <div class="row">
-                                        <div class="col">
-                                          <input type="text" id="jsMathInput1">
-                                          <input type="text" id="jsMathInput2">
-                                          <input type="text" id="jsMathInput3">
-                                          <input type="text" id="jsMathInput4">
-                                          <input type="text" id="jsMathInput5">
-                                          <button id="jsMathButton" class="btn btn-secondary" click="">
-                                            Input Numbers
-                                          </button>
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="text" id="jsMathInput1">
+                                                <input type="text" id="jsMathInput2">
+                                                <input type="text" id="jsMathInput3">
+                                                <input type="text" id="jsMathInput4">
+                                                <input type="text" id="jsMathInput5">
+                                                <button id="jsMathButton" class="btn btn-secondary" click="">
+                                                    Input Numbers
+                                                </button>
+                                            </div>
+                                            <div class="col">
+                                                <div class="row">
+                                                    <p id="sumResults"></p>
+                                                    <p id="meanResults"></p>
+                                                    <p id="productResults"></p>
+                                                    <p id="greatestResults"></p>
+                                                    <p id="leastResults"></p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="col">
-                                          <div class="row">
-                                            <p id="sumResults"></p>
-                                            <p id="meanResults"></p>
-                                            <p id="productResults"></p>
-                                            <p id="greatestResults"></p>
-                                            <p id="leastResults"></p>
-                                          </div>
-                                        </div>
-                                      </div>
                                     </div>
                                 </div>
 
@@ -774,20 +778,20 @@
                                 </div>
 
                                 <div class="container" style="padding: 50px 50px 50px 50px">
-                                  <div class="row">
-                                    <div class="col">
-                                      <input type="text" id="jsFactorialInput">
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" id="jsFactorialInput">
 
-                                      <button id="jsFactorialButton" class="btn btn-secondary" click="">
-                                        Input Number
-                                      </button>
+                                            <button id="jsFactorialButton" class="btn btn-secondary" click="">
+                                                Input Number
+                                            </button>
+                                        </div>
+                                        <div class="col">
+                                            <div class="row">
+                                                <p id="factorialResults"></p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col">
-                                      <div class="row">
-                                        <p id="factorialResults"></p>
-                                      </div>
-                                    </div>
-                                  </div>
                                 </div>
 
 
@@ -827,21 +831,21 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <div class="container" style="padding: 50px 50px 50px 50px">
-                                  <div class="row">
-                                    <div class="col">
-                                      <input type="text" id="jsFizzBuzzInput1">
-                                      <input type="text" id="jsFizzBuzzInput2">
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" id="jsFizzBuzzInput1">
+                                            <input type="text" id="jsFizzBuzzInput2">
 
-                                      <button id="jsFizzBuzzButton" class="btn btn-secondary" click="">
-                                        Input Numbers
-                                      </button>
+                                            <button id="jsFizzBuzzButton" class="btn btn-secondary" click="">
+                                                Input Numbers
+                                            </button>
+                                        </div>
+                                        <div class="col">
+                                            <div class="row">
+                                                <p id="fizzBuzzResults"></p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col">
-                                      <div class="row">
-                                        <p id="fizzBuzzResults"></p>
-                                      </div>
-                                    </div>
-                                  </div>
                                 </div>
                                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
@@ -879,20 +883,20 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <div class="container" style="padding: 50px 50px 50px 50px">
-                                  <div class="row">
-                                    <div class="col">
-                                      <input type="text" id="jsPalindroneInput">
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" id="jsPalindroneInput">
 
-                                      <button id="jsPalindroneButton" class="btn btn-secondary" click="">
-                                        Input Word
-                                      </button>
+                                            <button id="jsPalindroneButton" class="btn btn-secondary" click="">
+                                                Input Word
+                                            </button>
+                                        </div>
+                                        <div class="col">
+                                            <div class="row">
+                                                <p id="palindroneResults"></p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col">
-                                      <div class="row">
-                                        <p id="palindroneResults"></p>
-                                      </div>
-                                    </div>
-                                  </div>
                                 </div>
                                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
@@ -928,7 +932,9 @@
     <script src="js/jsFizzBuzz.js"></script>
     <!-- Script for Palindrone-->
     <script src="js/jsPalindrone.js"></script>
-
+    <!-- Syntax Highlighter -->
+    <script type="text/javascript" src="js/shCore.js"></script>
+    <script type="text/javascript" src="js/shBrushJScript.js"></script>
 </body>
 
 </html>
