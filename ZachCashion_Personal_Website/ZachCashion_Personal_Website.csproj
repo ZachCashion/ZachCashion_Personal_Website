@@ -73,6 +73,7 @@
     <Content Include="css\all.min.css" />
     <Content Include="css\freelancer.css" />
     <Content Include="css\freelancer.min.css" />
+    <Content Include="css\myCSS.css" />
     <Content Include="css\shCore.css" />
     <Content Include="css\shThemeDefault.css" />
     <Content Include="favicon-16x16.png" />

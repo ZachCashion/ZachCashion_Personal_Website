@@ -22,7 +22,5 @@ $("#jsFizzBuzzButton").click(function(){
   }
 
   // Step 3: Output Results
-
-
   $("#fizzBuzzResults").text(output);
 });

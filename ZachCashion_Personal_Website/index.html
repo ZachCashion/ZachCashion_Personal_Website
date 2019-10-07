@@ -9,6 +9,7 @@
     <meta name="author" content="">
 
     <title>Zach Cashion</title>
+
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -26,6 +27,9 @@
     <!-- Syntax Highlighter -->
     <link href="css/shCore.css" rel="stylesheet" type="text/css" />
     <link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+
+    <!--My CSS -->
+    <link href="css/myCSS.css" rel="stylesheet">
 
 </head>
 
@@ -91,7 +95,7 @@
         <div class="container">
 
             <!-- Portfolio Section Heading -->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">JS Exercises</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
 
             <!-- Icon Divider -->
             <div class="divider-custom">
@@ -833,8 +837,8 @@
                                 <div class="container" style="padding: 50px 50px 50px 50px">
                                     <div class="row">
                                         <div class="col">
-                                            <input type="text" id="jsFizzBuzzInput1">
-                                            <input type="text" id="jsFizzBuzzInput2">
+                                            <input type="text" id="jsFizzBuzzInput1" placeholder="Inter number 1-100">
+                                            <input type="text" id="jsFizzBuzzInput2" placeholder="Inter number 1-100">
 
                                             <button id="jsFizzBuzzButton" class="btn btn-secondary" click="">
                                                 Input Numbers
@@ -890,10 +894,40 @@
                                             <button id="jsPalindroneButton" class="btn btn-secondary" click="">
                                                 Input Word
                                             </button>
+                                            <button class="btn btn-secondary" click="">
+                                                Show Code
+                                            </button>
                                         </div>
                                         <div class="col">
                                             <div class="row">
                                                 <p id="palindroneResults"></p>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <pre class="brush: js">
+                                                        // Code for js Palindrone
+                                                        $("#jsPalindroneButton").click(function(){
+                                                            // Step 1: Get User Data
+                                                             var inputPalindrone = ($("#jsPalindroneInput").val());
+
+                                                            // Step 2: Make Caculations
+                                                            var array = inputPalindrone.split("");
+                                                            var reverseArray = array.reverse();
+                                                            var arrayToString = reverseArray.join("");
+
+                                                            if (inputPalindrone === arrayToString) {
+                                                            var outputPalindrone = "Your word is a Palindrone.";
+                                                            } else {
+                                                            var outputPalindrone = "Your word is not a Palindrone.";
+                                                            }
+                                                            // Step 3: Output Results
+
+                                                            $("#palindroneResults").text(outputPalindrone);
+                                                  });
+                                                </pre>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -924,17 +958,19 @@
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
 
-    <!-- Script for js Math-->
-    <script src="js/jsMath.js"></script>
-    <!-- Script for Factorial-->
-    <script src="js/jsFactorial.js"></script>
-    <!-- Script for Fizz Buzz-->
-    <script src="js/jsFizzBuzz.js"></script>
-    <!-- Script for Palindrone-->
-    <script src="js/jsPalindrone.js"></script>
     <!-- Syntax Highlighter -->
-    <script type="text/javascript" src="js/shCore.js"></script>
-    <script type="text/javascript" src="js/shBrushJScript.js"></script>
+    <script src="Scripts/SyntaxHighlighter/scripts/shCore.js"></script>
+    <script src="Scripts/SyntaxHighlighter/scripts/shBrushJScript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+    <!-- My JavaScript -->
+    <script src="js/jsMath.js"></script>
+    <script src="js/jsFactorial.js"></script>
+    <script src="js/jsFizzBuzz.js"></script>
+    <script src="js/jsPalindrone.js"></script>
+
 </body>
 
 </html>
