@@ -22,8 +22,6 @@ $("#jsMathButton").click(function(){
      return Math.min.apply(null, x);
   }
 
-
-
   // Step 3: Output the results
   var outputSum = "The Sum of your numbers is " + sum;
   var outputMean = "The Mean of your numbers is " + (sum/5);
@@ -37,36 +35,3 @@ $("#jsMathButton").click(function(){
   $("#greatestResults").text(outputGreatest);
   $("#leastResults").text(outputLeast);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Make caculations
-function compute(array){
-
-   for (i = 0; i < array.length; i+= 1) {
-         product *= array[i];
-         sum += array[i];
-   }
-   console.log('Sum : '+sum);
-   console.log('Product : ' +product);
-   console.log('Mean : ' +(sum/array.length));
-   console.log('Greatest : ' +myArrayMax(array));
-   console.log('Least : ' +myArrayMin(array));
-
-
-
-}
-
-
-// Output results
