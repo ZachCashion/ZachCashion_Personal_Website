@@ -17,3 +17,12 @@ $("#jsPalindroneButton").click(function(){
 
   $("#palindroneResults").text(outputPalindrone);
 });
+
+
+//Clear function
+$("#clearButtonPalindrone").click(function(){
+  $("#jsPalindroneInput").val("");
+
+        $("#palindroneResults").text("");
+
+});

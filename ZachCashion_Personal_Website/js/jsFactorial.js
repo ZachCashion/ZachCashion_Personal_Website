@@ -15,3 +15,11 @@ $("#jsFactorialButton").click(function(){
 
   $("#factorialResults").text(outputFactorial);
 });
+
+//Clear function
+$("#clearButtonFactorial").click(function(){
+  $("#jsFactorialInput").val("");
+
+        $("#factorialResults").text("");
+
+});

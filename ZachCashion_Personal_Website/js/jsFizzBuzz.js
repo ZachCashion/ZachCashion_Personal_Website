@@ -24,3 +24,12 @@ $("#jsFizzBuzzButton").click(function(){
   // Step 3: Output Results
   $("#fizzBuzzResults").text(output);
 });
+
+//Clear function
+$("#clearButtonFizzBuzz").click(function(){
+  $("#jsFizzBuzzInput1").val("");
+  $("#jsFizzBuzzInput2").val("");
+
+        $("#fizzBuzzResults").text("");
+
+});
