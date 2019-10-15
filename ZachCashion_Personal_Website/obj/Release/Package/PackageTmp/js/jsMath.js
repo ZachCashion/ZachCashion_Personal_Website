@@ -35,3 +35,15 @@ $("#jsMathButton").click(function(){
   $("#greatestResults").text(outputGreatest);
   $("#leastResults").text(outputLeast);
 });
+
+//Clear function
+$("#clearButtonMath").click(function(){
+  $("#jsMathInput1,#jsMathInput2,#jsMathInput3,#jsMathInput4,#jsMathInput5").val("");
+
+        $("#sumResults").text("");
+        $("#meanResults").text("");
+        $("#productResults").text("");
+        $("#greatestResults").text("");
+        $("#leastResults").text("");
+
+});

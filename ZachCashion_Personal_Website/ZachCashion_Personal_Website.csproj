@@ -90,6 +90,7 @@
     <Content Include="js\jsFizzBuzz.js" />
     <Content Include="js\jsMath.js" />
     <Content Include="js\jsPalindrone.js" />
+    <Content Include="js\myJavascript.js" />
     <Content Include="js\shBrushJScript.js" />
     <Content Include="js\shCore.js" />
     <Content Include="Scripts\SyntaxHighlighter\scripts\shAutoloader.js" />
