@@ -79,6 +79,13 @@
     <Content Include="favicon-16x16.png" />
     <Content Include="favicon-32x32.png" />
     <Content Include="favicon.ico" />
+    <Content Include="Images\csharp.jpg" />
+    <Content Include="Images\css3.jpg" />
+    <Content Include="Images\html5.jpg" />
+    <Content Include="Images\js.jpg" />
+    <Content Include="Images\msnet.jpg" />
+    <Content Include="Images\Profile.JPG" />
+    <Content Include="Images\sql.jpg" />
     <Content Include="index.html" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\contact_me.js" />
