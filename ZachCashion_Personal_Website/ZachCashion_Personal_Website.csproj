@@ -101,6 +101,7 @@
     <Content Include="js\myJavascript.js" />
     <Content Include="js\shBrushJScript.js" />
     <Content Include="js\shCore.js" />
+    <Content Include="mail\contact_me.php" />
     <Content Include="Scripts\SyntaxHighlighter\scripts\shAutoloader.js" />
     <Content Include="Scripts\SyntaxHighlighter\scripts\shBrushAppleScript.js" />
     <Content Include="Scripts\SyntaxHighlighter\scripts\shBrushAS3.js" />
