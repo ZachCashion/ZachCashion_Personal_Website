@@ -1,10 +1,10 @@
 //Toggles for Show Code
-$(document).ready(function(){
-  $("#mathCode").hide();
-  $("#factorialCode").hide();
-  $("#fizzBuzzCode").hide();
-  $("#palindroneCode").hide();
-});
+
+$("#mathCode").hide();
+$("#factorialCode").hide();
+$("#fizzBuzzCode").hide();
+$("#palindroneCode").hide();
+
 
 
 // Math Button
