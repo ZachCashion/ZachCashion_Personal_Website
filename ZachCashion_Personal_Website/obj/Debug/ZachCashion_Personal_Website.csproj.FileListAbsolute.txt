@@ -49,7 +49,7 @@ C:\Users\zachc\source\repos\ZachCashion_Personal_Website\ZachCashion_Personal_We
 C:\Users\zachc\source\repos\ZachCashion_Personal_Website\ZachCashion_Personal_Website\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\zachc\source\repos\ZachCashion_Personal_Website\ZachCashion_Personal_Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\zachc\source\repos\ZachCashion_Personal_Website\ZachCashion_Personal_Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\zachc\source\repos\ZachCashion_Personal_Website\ZachCashion_Personal_Website\obj\Debug\ZachCashion_Personal_Website.csprojAssemblyReference.cache
 C:\Users\zachc\source\repos\ZachCashion_Personal_Website\ZachCashion_Personal_Website\obj\Debug\ZachCashion_Personal_Website.csproj.CopyComplete
 C:\Users\zachc\source\repos\ZachCashion_Personal_Website\ZachCashion_Personal_Website\obj\Debug\ZachCashion_Personal_Website.dll
 C:\Users\zachc\source\repos\ZachCashion_Personal_Website\ZachCashion_Personal_Website\obj\Debug\ZachCashion_Personal_Website.pdb
+C:\Users\zachc\source\repos\ZachCashion_Personal_Website\ZachCashion_Personal_Website\obj\Debug\ZachCashion_Personal_Website.csprojAssemblyReference.cache

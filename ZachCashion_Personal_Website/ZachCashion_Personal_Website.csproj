@@ -96,6 +96,7 @@
     <Content Include="index.html" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\contact_me.js" />
+    <Content Include="js\sendEmail.js" />
     <Content Include="js\freelancer.min.js" />
     <Content Include="js\jqBootstrapValidation.js" />
     <Content Include="js\jquery.easing.min.js" />
@@ -160,7 +161,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="site.webmanifest" />
+    <None Include="site.webmanifest" />
     <None Include="Properties\PublishProfiles\ZachCashion - Web Deploy.pubxml" />
     <Content Include="resume\ZachCashionResume.pdf" />
     <None Include="Web.Debug.config">
