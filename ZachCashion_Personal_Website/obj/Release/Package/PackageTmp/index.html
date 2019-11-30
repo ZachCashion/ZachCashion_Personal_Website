@@ -409,7 +409,7 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image -->
-                                <img class="img-fluid rounded mb-5" src="Images/MyBlog.png" alt="">
+                                <a href="https://zachcashiondevblog.azurewebsites.net"><img class="img-fluid rounded mb-5" src="Images/MyBlog.png" alt=""></a> 
                                 <!-- Portfolio Modal - Text -->
                                 <p class="mb-5"><a href="https://zachcashiondevblog.azurewebsites.net">My Blog</a></p>
                                 <button class="btn btn-primary" href="#" data-dismiss="modal">
@@ -448,8 +448,7 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image -->
-                                <img class="img-fluid rounded mb-5" src="Images/BugTracker.png" />
-
+                                <a href="https://mybugtracker.azurewebsites.net/"><img class="img-fluid rounded mb-5" src="Images/BugTracker.png" /></a>
                                 <!-- Portfolio Modal - Text -->
                                 <p class="mb-5"><a href="https://mybugtracker.azurewebsites.net/">Bug Tracker</a></p>
                                 <button class="btn btn-primary" href="#" data-dismiss="modal">
@@ -647,23 +646,31 @@
                                     <div class="container" style="padding: 50px 50px 50px 50px">
                                         <div class="row">
                                             <div class="col">
-                                                <div style="padding: 5px 5px 5px 5px" class="row"><input type="text" id="jsMathInput1" placeholder="Inter number"></div>
-                                                <div style="padding: 5px 5px 5px 5px" class="row"><input type="text" id="jsMathInput2" placeholder="Inter number"></div>
-                                                <div style="padding: 5px 5px 5px 5px" class="row"><input type="text" id="jsMathInput3" placeholder="Inter number"></div>
-                                                <div style="padding: 5px 5px 5px 5px" class="row"><input type="text" id="jsMathInput4" placeholder="Inter number"></div>
-                                                <div style="padding: 5px 5px 5px 5px" class="row"><input type="text" id="jsMathInput5" placeholder="Inter number"></div>
-                                                <div class="row"><button id="jsMathButton" class="btn btn-primary" click="">Input Numbers</button></div>
-                                                <div class="row"><button id="clearButtonMath" class="btn btn-primary" click="">Clear</button></div>
-                                                <div class="row"><button id="toggleButtonMath" class="btn btn-primary" click="">Show Code</button></div>
+                                                <div class="row"><input style="margin-bottom:10px; width:150px;" type="text" id="jsMathInput1" placeholder="Inter number"></div>
+                                                <div class="row"><input style="margin-bottom:10px; width:150px;" type="text" id="jsMathInput2" placeholder="Inter number"></div>
+                                                <div class="row"><input style="margin-bottom:10px; width:150px;" type="text" id="jsMathInput3" placeholder="Inter number"></div>
+                                                <div class="row"><input style="margin-bottom:10px; width:150px;" type="text" id="jsMathInput4" placeholder="Inter number"></div>
+                                                <div class="row"><input style="margin-bottom:10px; width:150px;" type="text" id="jsMathInput5" placeholder="Inter number"></div>
+                                                <div class="row"><button style="margin-bottom:10px; width:150px;" id="jsMathButton" class="btn btn-primary" click="">Input Numbers</button></div>
+                                                <div class="row"><button style="margin-bottom:10px; width:150px;" id="clearButtonMath" class="btn btn-danger" click="">Clear</button></div>
+                                                <div class="row"><button style="margin-bottom:10px; width:150px;" id="toggleButtonMath" class="btn btn-info" click="">Show Code</button></div>
                                             </div>
                                             <div class="col">
-                                                <div class="row">
+                                                <div class="row" style="text-align:left;">
+                                                    <div class="card shadow mb-4">
+                                                        <div class="card-header py-3">
+                                                            <h6 class="m-0 font-weight-bold">Results Box</h6>
+                                                        </div>
+                                                        <div class="card-body">
 
-                                                    <p id="sumResults"></p>
-                                                    <p id="meanResults"></p>
-                                                    <p id="productResults"></p>
-                                                    <p id="greatestResults"></p>
-                                                    <p id="leastResults"></p>
+                                                            <p id="sumResults"></p>
+                                                            <p id="meanResults"></p>
+                                                            <p id="productResults"></p>
+                                                            <p id="greatestResults"></p>
+                                                            <p id="leastResults"></p>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div id="mathCode" class="container">
@@ -755,14 +762,23 @@
                                 <div class="container" style="padding: 50px 50px 50px 50px">
                                     <div class="row">
                                         <div class="col">
-                                            <div class="row"><input type="text" id="jsFactorialInput" placeholder="Inter number"></div>
-                                            <div class="row"><button id="jsFactorialButton" class="btn btn-primary" click="">Input Number</button></div>
-                                            <div class="row"><button id="clearButtonFactorial" class="btn btn-primary" click="">Clear</button></div>
-                                            <div class="row"><button id="toggleButtonFactorial" class="btn btn-primary" click="">Show Code</button></div>
+                                            <div class="row"><input style="margin-bottom:10px; width:150px;" type="text" id="jsFactorialInput" placeholder="Inter number"></div>
+                                            <div class="row"><button style="margin-bottom:10px; width:150px;" id="jsFactorialButton" class="btn btn-primary" click="">Input Number</button></div>
+                                            <div class="row"><button style="margin-bottom:10px; width:150px;" id="clearButtonFactorial" class="btn btn-danger" click="">Clear</button></div>
+                                            <div class="row"><button style="margin-bottom:10px; width:150px;" id="toggleButtonFactorial" class="btn btn-info" click="">Show Code</button></div>
                                         </div>
                                         <div class="col">
                                             <div class="row">
-                                                <p id="factorialResults"></p>
+                                                <div class="card shadow mb-4">
+                                                    <div class="card-header py-3">
+                                                        <h6 class="m-0 font-weight-bold">Results Box</h6>
+                                                    </div>
+                                                    <div class="card-body">
+
+                                                        <p id="factorialResults"></p>
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div id="factorialCode" class="container">
@@ -833,15 +849,24 @@
                                 <div class="container" style="padding: 50px 50px 50px 50px">
                                     <div class="row">
                                         <div class="col">
-                                            <div class="row"><input type="text" id="jsFizzBuzzInput1" placeholder="Inter number 1-100"></div>
-                                            <div class="row"><input type="text" id="jsFizzBuzzInput2" placeholder="Inter number 1-100"></div>
-                                            <div class="row"><button id="jsFizzBuzzButton" class="btn btn-primary" click="">Input Numbers</button></div>
-                                            <div class="row"><button id="clearButtonFizzBuzz" class="btn btn-primary" click="">Clear</button></div>
-                                            <div class="row"><button id="toggleButtonFizzBuzz" class="btn btn-primary" click="">Show Code</button></div>
+                                            <div class="row"><input style="margin-bottom:10px; width:150px;" type="text" id="jsFizzBuzzInput1" placeholder="Inter number 1-100"></div>
+                                            <div class="row"><input style="margin-bottom:10px; width:150px;" type="text" id="jsFizzBuzzInput2" placeholder="Inter number 1-100"></div>
+                                            <div class="row"><button style="margin-bottom:10px; width:150px;" id="jsFizzBuzzButton" class="btn btn-primary" click="">Input Numbers</button></div>
+                                            <div class="row"><button style="margin-bottom:10px; width:150px;" id="clearButtonFizzBuzz" class="btn btn-danger" click="">Clear</button></div>
+                                            <div class="row"><button style="margin-bottom:10px; width:150px;" id="toggleButtonFizzBuzz" class="btn btn-info" click="">Show Code</button></div>
                                         </div>
                                         <div class="col">
                                             <div class="row mr-auto">
-                                                <div class="text-left" id="fizzBuzzResults"></div>
+                                                <div class="card shadow mb-4">
+                                                    <div class="card-header py-3">
+                                                        <h6 class="m-0 font-weight-bold">Results Box</h6>
+                                                    </div>
+                                                    <div class="card-body">
+
+                                                        <div class="text-left" id="fizzBuzzResults"></div>
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div id="fizzBuzzCode" class="container">
@@ -919,14 +944,24 @@
                                 <div class="container" style="padding: 50px 50px 50px 50px">
                                     <div class="row">
                                         <div class="col">
-                                            <div class="row"><input type="text" id="jsPalindroneInput" placeholder="Inter Word"></div>
-                                            <div class="row"><button id="jsPalindroneButton" class="btn btn-primary" click="">Input Word</button></div>
-                                            <div class="row"><button id="clearButtonPalindrone" class="btn btn-primary" click="">Clear</button></div>
-                                            <div class="row"><button id="toggleButtonPalindrone" class="btn btn-primary" click="">Show Code</button></div>
+                                            <div class="row"><input style="margin-bottom:10px; width:150px;" type="text" id="jsPalindroneInput" placeholder="Inter Word"></div>
+                                            <div class="row"><button style="margin-bottom:10px; width:150px;" id="jsPalindroneButton" class="btn btn-primary" click="">Input Word</button></div>
+                                            <div class="row"><button style="margin-bottom:10px; width:150px;" id="clearButtonPalindrone" class="btn btn-danger" click="">Clear</button></div>
+                                            <div class="row"><button style="margin-bottom:10px; width:150px;" id="toggleButtonPalindrone" class="btn btn-info" click="">Show Code</button></div>
                                         </div>
                                         <div class="col">
                                             <div class="row">
-                                                <p id="palindroneResults"></p>
+                                                <div class="card shadow mb-4">
+                                                    <div class="card-header py-3">
+                                                        <h6 class="m-0 font-weight-bold">Results Box</h6>
+                                                    </div>
+                                                    <div class="card-body">
+
+                                                        <p id="palindroneResults"></p>
+
+                                                    </div>
+                                                </div>
+ 
                                             </div>
                                         </div>
                                         <div id="palindroneCode" class="container">
