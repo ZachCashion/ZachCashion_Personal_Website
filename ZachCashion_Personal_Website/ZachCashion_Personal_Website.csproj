@@ -83,6 +83,8 @@
     <Content Include="Images\csharp.jpg" />
     <Content Include="Images\css3.jpg" />
     <Content Include="Images\Factorial.png" />
+    <Content Include="Images\FinancialPortal.png" />
+    <Content Include="Images\FinancialPortalWebAPI.png" />
     <Content Include="Images\FizzBuzz.png" />
     <Content Include="Images\html5.jpg" />
     <Content Include="Images\js.jpg" />
