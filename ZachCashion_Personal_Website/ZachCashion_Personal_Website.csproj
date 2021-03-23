@@ -164,6 +164,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />
     <None Include="site.webmanifest" />
     <None Include="Properties\PublishProfiles\ZachCashion - Web Deploy.pubxml" />
     <Content Include="resume\ZachCashionResume.pdf" />

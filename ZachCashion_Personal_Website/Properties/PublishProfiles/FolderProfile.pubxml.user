@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\zachc\Downloads\Website</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="android-chrome-192x192.png">
+      <publishTime>10/01/2019 10:54:28</publishTime>
+    </File>
+    <File Include="android-chrome-512x512.png">
+      <publishTime>10/01/2019 10:54:28</publishTime>
+    </File>
+    <File Include="apple-touch-icon.png">
+      <publishTime>10/01/2019 10:54:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/ZachCashion_Personal_Website.dll">
+      <publishTime>03/23/2021 12:16:55</publishTime>
+    </File>
+    <File Include="bin/ZachCashion_Personal_Website.pdb">
+      <publishTime>03/23/2021 12:16:55</publishTime>
+    </File>
+    <File Include="css/all.min.css">
+      <publishTime>09/30/2019 16:02:23</publishTime>
+    </File>
+    <File Include="css/freelancer.css">
+      <publishTime>09/30/2019 15:39:45</publishTime>
+    </File>
+    <File Include="css/freelancer.min.css">
+      <publishTime>09/30/2019 15:39:53</publishTime>
+    </File>
+    <File Include="css/myCSS.css">
+      <publishTime>10/07/2019 14:04:12</publishTime>
+    </File>
+    <File Include="css/shCore.css">
+      <publishTime>10/07/2019 09:58:57</publishTime>
+    </File>
+    <File Include="css/shThemeDefault.css">
+      <publishTime>10/07/2019 09:58:57</publishTime>
+    </File>
+    <File Include="favicon-16x16.png">
+      <publishTime>10/01/2019 10:54:28</publishTime>
+    </File>
+    <File Include="favicon-32x32.png">
+      <publishTime>10/01/2019 10:54:28</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>10/01/2019 10:54:28</publishTime>
+    </File>
+    <File Include="Images/BugTracker.png">
+      <publishTime>11/22/2019 16:04:32</publishTime>
+    </File>
+    <File Include="Images/csharp.jpg">
+      <publishTime>10/19/2019 17:04:12</publishTime>
+    </File>
+    <File Include="Images/css3.jpg">
+      <publishTime>10/19/2019 16:56:31</publishTime>
+    </File>
+    <File Include="Images/Factorial.png">
+      <publishTime>11/22/2019 16:53:33</publishTime>
+    </File>
+    <File Include="Images/FinancialPortal.png">
+      <publishTime>12/16/2019 15:59:32</publishTime>
+    </File>
+    <File Include="Images/FinancialPortalWebAPI.png">
+      <publishTime>12/16/2019 15:42:58</publishTime>
+    </File>
+    <File Include="Images/FizzBuzz.png">
+      <publishTime>11/22/2019 16:53:33</publishTime>
+    </File>
+    <File Include="Images/html5.jpg">
+      <publishTime>10/19/2019 16:56:31</publishTime>
+    </File>
+    <File Include="Images/js.jpg">
+      <publishTime>10/19/2019 16:56:31</publishTime>
+    </File>
+    <File Include="Images/JsMath.png">
+      <publishTime>11/22/2019 16:53:33</publishTime>
+    </File>
+    <File Include="Images/msnet.jpg">
+      <publishTime>10/19/2019 16:56:31</publishTime>
+    </File>
+    <File Include="Images/My Blog.png">
+      <publishTime>10/21/2019 09:52:03</publishTime>
+    </File>
+    <File Include="Images/MyBlog.png">
+      <publishTime>11/22/2019 15:36:30</publishTime>
+    </File>
+    <File Include="Images/Palindrome.png">
+      <publishTime>11/22/2019 16:53:33</publishTime>
+    </File>
+    <File Include="Images/Profile.JPG">
+      <publishTime>12/04/2019 09:37:55</publishTime>
+    </File>
+    <File Include="Images/sql.jpg">
+      <publishTime>10/19/2019 16:56:31</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>12/20/2019 16:09:00</publishTime>
+    </File>
+    <File Include="js/bootstrap.bundle.min.js">
+      <publishTime>09/30/2019 15:57:28</publishTime>
+    </File>
+    <File Include="js/contact_me.js">
+      <publishTime>12/02/2019 11:17:01</publishTime>
+    </File>
+    <File Include="js/freelancer.min.js">
+      <publishTime>09/30/2019 15:58:47</publishTime>
+    </File>
+    <File Include="js/jqBootstrapValidation.js">
+      <publishTime>09/30/2019 15:58:25</publishTime>
+    </File>
+    <File Include="js/jquery.easing.min.js">
+      <publishTime>09/30/2019 15:58:03</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>09/30/2019 15:57:09</publishTime>
+    </File>
+    <File Include="js/jsFactorial.js">
+      <publishTime>10/14/2019 00:22:17</publishTime>
+    </File>
+    <File Include="js/jsFizzBuzz.js">
+      <publishTime>10/14/2019 00:57:30</publishTime>
+    </File>
+    <File Include="js/jsMath.js">
+      <publishTime>10/14/2019 00:11:55</publishTime>
+    </File>
+    <File Include="js/jsPalindrone.js">
+      <publishTime>10/14/2019 00:34:14</publishTime>
+    </File>
+    <File Include="js/myJavascript.js">
+      <publishTime>10/21/2019 11:55:18</publishTime>
+    </File>
+    <File Include="js/sendEmail.js">
+      <publishTime>12/02/2019 14:26:39</publishTime>
+    </File>
+    <File Include="js/shBrushJScript.js">
+      <publishTime>10/07/2019 15:31:38</publishTime>
+    </File>
+    <File Include="js/shCore.js">
+      <publishTime>10/07/2019 10:01:22</publishTime>
+    </File>
+    <File Include="js/smtp.js">
+      <publishTime>12/02/2019 13:58:20</publishTime>
+    </File>
+    <File Include="mail/contact_me.php">
+      <publishTime>11/25/2019 10:53:44</publishTime>
+    </File>
+    <File Include="resume/ZachCashionResume.pdf">
+      <publishTime>11/22/2019 10:07:07</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shAutoloader.js">
+      <publishTime>10/07/2019 09:57:47</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushAppleScript.js">
+      <publishTime>10/07/2019 09:57:47</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushAS3.js">
+      <publishTime>10/07/2019 09:57:47</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushBash.js">
+      <publishTime>10/07/2019 09:57:47</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushColdFusion.js">
+      <publishTime>10/07/2019 09:57:47</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushCpp.js">
+      <publishTime>10/07/2019 09:57:47</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushCSharp.js">
+      <publishTime>10/07/2019 09:57:47</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushCss.js">
+      <publishTime>10/07/2019 09:57:46</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
+      <publishTime>10/07/2019 09:57:46</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushDiff.js">
+      <publishTime>10/07/2019 09:57:46</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushErlang.js">
+      <publishTime>10/07/2019 09:57:46</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushGroovy.js">
+      <publishTime>10/07/2019 09:57:46</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushJava.js">
+      <publishTime>10/07/2019 09:57:46</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushJavaFX.js">
+      <publishTime>10/07/2019 09:57:46</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushJScript.js">
+      <publishTime>10/07/2019 09:57:46</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushPerl.js">
+      <publishTime>10/07/2019 09:57:46</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushPhp.js">
+      <publishTime>10/07/2019 09:57:46</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushPlain.js">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushPowerShell.js">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushPython.js">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushRuby.js">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushSass.js">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushScala.js">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushSql.js">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushVb.js">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shBrushXml.js">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shCore.js">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/scripts/shLegacy.js">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shCore.css">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shCoreDefault.css">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shCoreDjango.css">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shCoreEclipse.css">
+      <publishTime>10/07/2019 09:57:45</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shCoreEmacs.css">
+      <publishTime>10/07/2019 09:57:44</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shCoreFadeToGrey.css">
+      <publishTime>10/07/2019 09:57:44</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shCoreMDUltra.css">
+      <publishTime>10/07/2019 09:57:44</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shCoreMidnight.css">
+      <publishTime>10/07/2019 09:57:44</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shCoreRDark.css">
+      <publishTime>10/07/2019 09:57:44</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
+      <publishTime>10/07/2019 09:57:44</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shThemeDjango.css">
+      <publishTime>10/07/2019 09:57:44</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shThemeEclipse.css">
+      <publishTime>10/07/2019 09:57:44</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shThemeEmacs.css">
+      <publishTime>10/07/2019 09:57:44</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shThemeFadeToGrey.css">
+      <publishTime>10/07/2019 09:57:44</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shThemeMDUltra.css">
+      <publishTime>10/07/2019 09:57:44</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shThemeMidnight.css">
+      <publishTime>10/07/2019 09:57:44</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/styles/shThemeRDark.css">
+      <publishTime>10/07/2019 09:57:44</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/23/2021 12:35:57</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.woff">
+      <publishTime>09/30/2019 15:20:55</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.woff2">
+      <publishTime>09/30/2019 15:20:55</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.woff">
+      <publishTime>10/21/2019 13:54:52</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.woff2">
+      <publishTime>10/21/2019 13:54:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
