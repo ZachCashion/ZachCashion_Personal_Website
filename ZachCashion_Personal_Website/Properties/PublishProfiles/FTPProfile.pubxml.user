@@ -8,7 +8,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAiBRHEc7n6UO29sDDQAaDXgAAAAACAAAAAAAQZgAAAAEAACAAAADQFEHa3MmSdON4CTqplztpbJ42Z1GVEdDtw1PrxMtNHQAAAAAOgAAAAAIAACAAAABt3OoF4BACSaAUgoEdjKiAdZ80d6VhbrpE/Wzys5xfvyAAAADP7NbwKNSrUGm2kSQT0ZURgG5JhbzRQrBve4ZDWmpoDEAAAADLeV4nkXNccK1lvl1j/NCQ4GRaeJb/aoW8xu8eyLEbMvrlDBhTJdjXoF8Gm+JSi020+yMLkmnNudhiTkMLceQt</EncryptedPassword>
     <_PublishTargetUrl>ftp://67.211.223.122/httpdocs</_PublishTargetUrl>
-    <History>True|2021-03-24T16:55:20.0517354Z;True|2021-03-23T12:25:21.8923039-04:00;True|2021-03-22T12:54:48.6977474-04:00;</History>
+    <History>True|2021-05-19T18:50:09.7674144Z;True|2021-03-25T21:55:32.3120754-04:00;True|2021-03-25T10:42:09.4122814-04:00;True|2021-03-24T12:55:20.0517354-04:00;True|2021-03-23T12:25:21.8923039-04:00;True|2021-03-22T12:54:48.6977474-04:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="android-chrome-192x192.png">
@@ -162,10 +162,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/24/2018 13:38:24</publishTime>
     </File>
     <File Include="bin/ZachCashion_Personal_Website.dll">
-      <publishTime>03/24/2021 12:55:02</publishTime>
+      <publishTime>05/19/2021 14:48:02</publishTime>
     </File>
     <File Include="bin/ZachCashion_Personal_Website.pdb">
-      <publishTime>03/24/2021 12:55:02</publishTime>
+      <publishTime>05/19/2021 14:48:02</publishTime>
     </File>
     <File Include="css/all.min.css">
       <publishTime>09/30/2019 16:02:23</publishTime>
@@ -243,7 +243,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/19/2019 16:56:31</publishTime>
     </File>
     <File Include="index.html">
-      <publishTime>03/24/2021 12:54:44</publishTime>
+      <publishTime>05/19/2021 14:47:39</publishTime>
     </File>
     <File Include="js/bootstrap.bundle.min.js">
       <publishTime>09/30/2019 15:57:28</publishTime>
@@ -432,7 +432,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/07/2019 09:57:44</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>03/24/2021 12:55:05</publishTime>
+      <publishTime>05/19/2021 14:49:55</publishTime>
     </File>
     <File Include="webfonts/fa-brands-400.woff">
       <publishTime>09/30/2019 15:20:55</publishTime>
