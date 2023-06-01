@@ -166,6 +166,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />
+    <Content Include="resume\AWS Certified Cloud Practitioner certificate.pdf" />
     <None Include="site.webmanifest" />
     <None Include="Properties\PublishProfiles\ZachCashion - Web Deploy.pubxml" />
     <Content Include="resume\ZachCashionResume.pdf" />
