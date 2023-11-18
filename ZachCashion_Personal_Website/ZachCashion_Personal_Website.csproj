@@ -79,8 +79,10 @@
     <Content Include="favicon-16x16.png" />
     <Content Include="favicon-32x32.png" />
     <Content Include="favicon.ico" />
+    <Content Include="Images\AngularJS.png" />
     <Content Include="Images\aws-certified-cloud-practitioner.png" />
     <Content Include="Images\BugTracker.png" />
+    <Content Include="Images\Civix.png" />
     <Content Include="Images\csharp.jpg" />
     <Content Include="Images\css3.jpg" />
     <Content Include="Images\Factorial.png" />
@@ -90,6 +92,7 @@
     <Content Include="Images\html5.jpg" />
     <Content Include="Images\js.jpg" />
     <Content Include="Images\JsMath.png" />
+    <Content Include="Images\Microsoft_Azure.svg.png" />
     <Content Include="Images\msnet.jpg" />
     <Content Include="Images\My Blog.png" />
     <Content Include="Images\MyBlog.png" />
